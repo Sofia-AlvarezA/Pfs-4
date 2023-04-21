@@ -44,7 +44,7 @@ var l = linearRegression(months, kwhs);
 
 //For Residents vs kWh
 const residents = [1, 2, 3, 5, 5, 6, 3, 8, 3, 5];
-const kWhs = [240, 250, 274, 260, 210, 300, 260, 440, 300, 350];
+const kWhs = [69, 98, 115, 128, 123, 183, 159, 228, 177, 260];
 var r = linearRegression(residents, kWhs);
 
 const trace11 = {
